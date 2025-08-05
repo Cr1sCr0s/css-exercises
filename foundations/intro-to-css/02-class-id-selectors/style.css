@@ -1,0 +1,23 @@
+/* all odd numbered elements**: a light red/pink background, and a list of fonts containing `verdana` and `dejavu sans` with `sans-serif` as a fallback */
+/* the second element**: blue text and a font size of 36px */
+/* the third element**: in addition to the styles for all odd numbered elements, add a font size of 24px */
+/* The fourth element**: a light green background, a font size of 24px, and bold */
+.class {
+  background-color: pink;
+  font-family: "times new roman", sans-serif;
+}
+
+#id {
+  color: blue;
+  font-size: 36px;
+}
+
+.class.subclass {
+  font-size: 24px;
+}
+
+#idsecond {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
